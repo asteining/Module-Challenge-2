@@ -57,6 +57,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-decoration: none;
   }
   
   nav a {
@@ -222,23 +223,34 @@
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
+    background-image: url('../images/jack-robinson-hawaii.avif');
+    background-size: cover;
+    background-position: center;
     
   }
   
   .led-wall {
-    
+    background-image: url('../images/Night.jfif');
+    background-size: cover;
+    background-position: center;
   }
   
   .react-calc {
-    
+    background-image: url('../images/Computer.jfif');
+    background-size: cover;
+    background-position: center;
   }
   
   .pastel-puzzles {
-    
+    background-image: url('../images/Art.jfif');
+    background-size: cover;
+    background-position: center;
   }
   
   .surf-report {
-    
+    background-image: url('../images/Run.jfif');
+    background-size: cover;
+    background-position: center;
   }
   
   /* media queries */
@@ -277,5 +289,52 @@
     }
   }
   
-  /* TODO: add media query for a max-width of 768px */
+  @media screen and (max-width: 768px) {
+    /* Your responsive styles go here */
   
+    header {
+      padding: 10px;
+      text-align: center;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a {
+      margin: 5px 0;
+      font-size: 1.2rem;
+    }
+  
+    .hero-banner {
+      padding: 5% 10%;
+      text-align: center;
+    }
+  
+    .hero-banner h2 {
+      font-size: 1.8rem;
+    }
+  
+    .page-section > h2 {
+      font-size: 6vw;
+      text-align: center;
+      border: none;
+      padding: 0 0 20px 0;
+    }
+  
+    .page-section > div {
+      width: 100%;
+    }
+  
+    .flex-item {
+      flex-basis: 100%;
+      margin-bottom: 1em;
+      min-height: 200px;
+    }
+  
+    .flex-item:first-child {
+      min-height: 300px;
+    }
+  }
+    

@@ -1,18 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-
+    <title>Styled Page</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-<!-- TODO: add body content below -->
+    <!-- Header Section -->
+    <header>
+        <h1>Aramis Steininger</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
+    <!-- Hero Banner Section -->
+    <section class="hero-banner">
+        <div>
+            <h2>Welcome to My Portfolio</h2>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <main>
+        <div class="page-wrapper">
+            <!-- About Section -->
+            <section id="about" class="page-section">
+                <h2>About Me</h2>
+                <div>
+                    <p>Experienced Analyst with industry experience in Asset Management, Fintech and Production. Skilled in Financial Modeling, Risk Management, Markets, Sales and Investing. Strong business professional with a Bachelor's degree focused in Economics from Connecticut College.</p>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="page-section">
+                <h2>Portfolio</h2>
+                <div class="flex-container">
+                    <a href="#" class="flex-item run-buddy">
+                        <div>
+                            <h3>Surf Report</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="flex-item led-wall">
+                        <div>
+                            <h3>Night Life</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="flex-item react-calc">
+                        <div>
+                            <h3>Artificial Intelligence</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="flex-item pastel-puzzles">
+                        <div>
+                            <h3>NFTs</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="flex-item surf-report">
+                        <div>
+                            <h3>Run Club</h3>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="page-section contact">
+                <h2>Contact</h2>
+                <div>
+                    <address>
+                        <a href="aramissteininger@gmail.com">aramissteininger@gmail.com</a>
+                        <a href="https://github.com/asteining" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/aramis-steininger-213433199/" target="_blank">LinkedIn</a>
+                    </address>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 
 </html>
